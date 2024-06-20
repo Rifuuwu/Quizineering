@@ -1,0 +1,32 @@
+[
+    {
+        "penjelasan": "Sistem operasi adalah perangkat lunak inti yang mengontrol perangkat keras komputer dan menyediakan antarmuka bagi pengguna untuk berinteraksi dengan komputer, serta menjalankan aplikasi lain."
+    },
+    {
+        "penjelasan": "Browser web adalah aplikasi yang memungkinkan pengguna untuk mengakses dan menavigasi halaman web di internet, menampilkan konten seperti teks, gambar, dan video."
+    },
+    {
+        "penjelasan": "SQL adalah singkatan dari Structured Query Language, sebuah bahasa pemrograman standar yang digunakan untuk mengelola dan memanipulasi basis data relasional."
+    },
+    {
+        "penjelasan": "Aplikasi perangkat lunak adalah program yang dibuat untuk memudahkan pengguna dalam melakukan berbagai tugas spesifik, seperti pengolahan kata, pengeditan gambar, atau pengelolaan data."
+    },
+    {
+        "penjelasan": "Debugging adalah proses mencari, mengidentifikasi, dan memperbaiki bug atau kesalahan dalam kode program untuk memastikan program berjalan dengan benar."
+    },
+    {
+        "penjelasan": "Program aplikasi adalah perangkat lunak yang dibuat untuk memenuhi kebutuhan pengguna secara umum dan seringkali tersedia untuk publik atau dijual secara massal."
+    },
+    {
+        "penjelasan": "Windows Media Player adalah contoh dari program aplikasi multimedia yang digunakan untuk memutar berbagai jenis file media, seperti musik dan video."
+    },
+    {
+        "penjelasan": "Linux, Adobe Photoshop, dan Antivirus adalah contoh dari software. Linux adalah sistem operasi, Adobe Photoshop adalah aplikasi pengeditan gambar, dan Antivirus adalah program keamanan komputer."
+    },
+    {
+        "penjelasan": "Software adalah istilah umum untuk program dan data yang disimpan secara elektronik oleh komputer, yang dapat berupa aplikasi atau sistem operasi."
+    },
+    {
+        "penjelasan": "API adalah sekumpulan aturan dan definisi yang memungkinkan aplikasi atau layanan untuk berkomunikasi dengan aplikasi atau layanan lain, memudahkan integrasi dan pembuatan fitur baru."
+    }
+]

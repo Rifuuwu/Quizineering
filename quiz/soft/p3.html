@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuis Interaktif</title>
+<link rel="stylesheet" href="../stylequiz.css">
+</head>
+<body>
+  <div class="content">
+    <div id="quizDiv">
+        <h1>Pertanyaan 3</h1>
+      <div id="questionDiv">Apa kepanjangan dari SQL?</div>
+      <div id="optionsDiv">
+        <li type="A">Standard Query Language</li>
+        <li type="A">Structured Query Language</li>
+        <li type="A">Simple Query Language</li>
+        <li type="A">Sistem Query Language</li>
+      </div>
+      <form id="pertanyaan">
+        <input type="hidden" id="nomor" value="3">
+          <div class="radio-input">
+            <input value="0" name="ops" id="opsA" type="radio">
+            <label for="opsA">A</label>
+            <input value="1" name="ops" id="opsB" type="radio">
+            <label for="opsB">B</label>
+            <input value="2" name="ops" id="opsC" type="radio">
+            <label for="opsC">C</label>
+            <input value="3" name="ops" id="opsD" type="radio">
+            <label for="opsD">D</label>
+          </div>
+          <button type="submit" id="next-question" class="btnCek" >
+
+      </form>
+    
+        <span class="cekBefore">Cek Jawaban</span>
+        <span class="cekAfter">Yakin?</span>
+      </button>
+    </div>
+  </div>
+
+
+<script src="play.js"></script>
+</body>
+</html>

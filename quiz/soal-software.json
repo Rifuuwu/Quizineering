@@ -1,0 +1,90 @@
+//soal software
+
+// kategori mudah
+
+{
+    "question": "Apa itu sistem operasi (Operating System)?",
+    "options": ["Perangkat keras komputer",
+    "Software yang mengelola perangkat keras komputer dan menyediakan layanan umum untuk program komputer",
+    "Aplikasi yang digunakan untuk menjelajahi internet",
+    "Program untuk mengedit video"],
+    "answer": "Software yang mengelola perangkat keras komputer dan menyediakan layanan umum untuk program komputer"
+},
+{
+    "question":"Apa fungsi utama dari browser web?",
+    "options": ["Mengedit dokumen teks",
+    "Menjalankan sistem operasi",
+    "Menampilkan halaman web dan mengakses informasi di internet",
+    "Mengelola file dan folder"],
+    "answer": "Menampilkan halaman web dan mengakses informasi di internet"
+},
+{
+    "question": "Apa kepanjangan dari SQL?",
+    "options": ["Standard Query Language", 
+    "Structured Query Language", 
+    "Simple Query Language", 
+    "Sistem Query Language"],
+    "answer": "Structured Query Language"
+},
+{
+    "question":"Apa itu aplikasi perangkat lunak?",
+    "options": ["Program yang digunakan untuk menjalankan sistem operasi",
+    "Perangkat keras yang mengelola memori",
+    "Program yang dirancang untuk membantu pengguna melakukan tugas tertentu",
+    "Alat untuk mengoptimalkan kecepatan internet"],
+    "answer": "Program yang dirancang untuk membantu pengguna melakukan tugas tertentu"
+},
+{
+    "question": "Apa itu debugging dalam pengembangan perangkat lunak?",
+    "options": ["Menulis dokumentasi program",
+    "Mengidentifikasi dan memperbaiki kesalahan dalam kode program",
+    "Mengoptimalkan kecepatan program",
+    "Menambahkan fitur baru ke program"],
+    "answer": "GPU (Graphics Processing Unit) bertugas untuk menampilkan output visual dari komputer ke monitor"
+},
+
+//soal sulit
+{
+    "question":"Software yang dibuat untuk membantu kebutuhan penggunanya dan dibuat secara massal adalah ....",
+    "options": ["Sistem Operasi (OS)",
+    "Alat Bantu",
+    "Program Aplikasi",
+    "User Program"],
+    "answer": "Program Aplikasi"
+}
+{
+    "question": "Program aplikasi di bawah ini merupakan program multimedia adalah ....",
+    "options": ["Open Office Calc", 
+    "Lotus 123", 
+    "Windows Media Player", 
+    "Adobe Photoshop"],
+    "answer": "Open Office Calc"
+},
+{
+    "question": "Perhatikan beberapa perangkat berikut:
+    Mouse
+    Linux
+    Motherboard
+    Adobe Photoshop
+    Antivirus
+    Printer
+    Berdasarkan perangkat di atas, yang termasuk software adalah ....",
+    "options": ["1, 2, dan 3", 
+    "1, 3, dan 6", 
+    "2, 4, dan 5", 
+    "Semua benar"],
+    "answer": "2, 4, dan 5"
+},
+{
+    "question": "Sekumpulan data elektronik yang disimpan dan diatur oleh komputer, data elektronik yang disimpan oleh komputer itu dapat berupa program atau instruksi yang akan menjalankan suatu perintah disebut ....",
+    "options": ["Shareware", "Brainware", "Hardware", "Software"],
+    "answer": "Software"
+},
+{
+    "question": "Apa itu API (Application Programming Interface) dan apa fungsinya?",
+    "options": ["Perangkat keras untuk menghubungkan komputer", 
+    "Antarmuka yang memungkinkan perangkat lunak untuk berkomunikasi satu sama lain", 
+    "Program untuk mengedit video", 
+    "Teknik untuk mengopresi file"],
+    "answer": "Antarmuka yang memungkinkan perangkat lunak untuk berkomunikasi satu sama lain"
+},

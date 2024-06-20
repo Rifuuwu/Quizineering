@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rating Bintang</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div id="mainDiv">
+
+        <div id="warning">
+            <!-- warning lur -->
+        </div>
+    
+        <div id="stars">
+        <span class="star">★</span>
+        <span class="star">★</span>
+        <span class="star">★</span>
+        </div>
+    
+        <div id="hasil"></div>
+
+        <button class="btnStart" onclick="window.location.href='../index.html'">Kembali ke Awal</button>
+    </div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var score = localStorage.getItem('score') || 0;
+        var stars = document.querySelectorAll('.star');
+      
+        if (score < 5) {
+          stars[0].classList.add('yellow');
+        } else if (score < 8) {
+          stars[0].classList.add('yellow');
+          stars[1].classList.add('yellow');
+        } else if (score >= 8 && score <= 10) {
+          stars.forEach(function(star) {
+            star.classList.add('yellow');
+          });
+        }
+        else{
+            stars.forEach(function(star) {
+                star.classList.add('hidden');
+              });
+            document.getElementById('warning').innerHTML=("diapain heh, kok error <br> curang yaaa?")
+        }
+        document.getElementById('hasil').innerHTML=("Skor kamu adalah "+score+"/10")
+      });
+      
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+[
+    {
+        "penjelasan": "CPU (Central Processing Unit) adalah otak dari komputer yang menjalankan semua instruksi program dan melakukan perhitungan."
+    },
+    {
+        "penjelasan": "RAM adalah memori sementara yang digunakan untuk menyimpan data yang sedang diakses dan diproses oleh CPU."
+    },
+    {
+        "penjelasan": "HDD adalah perangkat penyimpanan yang digunakan untuk menyimpan data secara permanen, termasuk sistem operasi, aplikasi, dan file pengguna."
+    },
+    {
+        "penjelasan": "GPU (Graphics Processing Unit) adalah komponen yang bertugas untuk memproses dan menampilkan output visual dari komputer ke monitor."
+    },
+    {
+        "penjelasan": "SSD (Solid State Drive) lebih cepat dan lebih tahan lama dibandingkan HDD karena tidak memiliki bagian bergerak dan menggunakan memori flash."
+    },
+    {
+        "penjelasan": "Bus adalah jalur komunikasi yang menghubungkan berbagai komponen komputer, memungkinkan data ditransfer antar komponen tersebut."
+    },
+    {
+        "penjelasan": "DDR4 menawarkan kecepatan transfer data yang lebih tinggi dan konsumsi daya yang lebih rendah dibandingkan DDR3, membuatnya lebih efisien."
+    },
+    {
+        "penjelasan": "Sistem pendingin, seperti kipas dan heatsink, berfungsi untuk mengeluarkan panas yang dihasilkan oleh komponen-komponen utama seperti CPU dan GPU, menjaga suhu operasional yang aman."
+    },
+    {
+        "penjelasan": "Overclocking adalah praktik meningkatkan kecepatan clock komponen seperti CPU atau GPU melebihi spesifikasi pabrik untuk mendapatkan kinerja yang lebih tinggi, meskipun bisa meningkatkan risiko overheating dan mengurangi umur komponen."
+    },
+    {
+        "penjelasan": "RAID (Redundant Array of Independent Disks) adalah teknologi yang menggabungkan beberapa hard disk drive untuk meningkatkan kinerja, kapasitas penyimpanan, atau redundansi data. Salah satu keuntungannya adalah peningkatan keandalan data melalui redundansi."
+    }
+]

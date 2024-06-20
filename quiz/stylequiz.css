@@ -1,0 +1,202 @@
+body {
+    background-color: #070F2B; /* Warna latar belakang gelap */
+    color: #e2e1f8; /* Warna teks terang */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.blur { filter: blur(8px); }
+.hidden { display: none; }
+
+#quizDiv {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+}
+
+
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.radio-input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+
+.radio-input input[type="radio"] {
+  display: none;
+}
+
+.radio-input label {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #212121;
+  border-radius: 5px;
+  margin-right: 12px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.radio-input label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 2px solid #ccc;
+  transition: all 0.3s ease-in-out;
+}
+
+.radio-input input[type="radio"]:checked + label:before {
+  background-color: green;
+  top: 0;
+}
+
+.radio-input input[type="radio"]:checked + label {
+  background-color: royalblue;
+  color: #fff;
+  border-color: rgb(129, 235, 129);
+  animation: radio-translate 0.5s ease-in-out;
+}
+
+@keyframes radio-translate {
+  0% {
+    transform: translateX(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+
+.btnCek {
+  width: 140px;
+  height: 50px;
+  background: linear-gradient(to top, #00154c, #12376e, #23487f);
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+}
+
+.btnCek span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.cekBefore {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.cekAfter {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+
+.btnCek:hover .cekBefore {
+  top: -100%;
+}
+
+.btnCek:hover .cekAfter {
+  top: 50%;
+}
+
+
+/* Responsif untuk tablet */
+@media (max-width: 768px) {
+  .mainDiv {
+      flex-direction: column;
+  }
+
+  .btnStart, .btnTag {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .star {
+      font-size: 30px;
+  }
+
+  .help-button {
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+  }
+}
+
+/* Responsif untuk mobile */
+@media (max-width: 480px) {
+  body {
+      font-size: 14px;
+  }
+
+  .mainDiv {
+      padding: 20px;
+  }
+
+  .btnStart, .btnTag {
+      width: 100%;
+      padding: 8px;
+  }
+
+  .star {
+      font-size: 20px;
+  }
+
+  .help-button {
+      top: 5px;
+      right: 5px;
+      width: 35px;
+      height: 35px;
+      font-size: 14px;
+      line-height: 35px;
+  }
+}

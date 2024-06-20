@@ -1,0 +1,76 @@
+[
+  {
+    "question": "Komponen komputer yang bertugas untuk melakukan perhitungan dan menjalankan instruksi program adalah",
+    "options": ["GPU", "CPU", "RAM", "SSD"],
+    "answer": "CPU"
+},
+{
+    "question":"Apa fungsi RAM dalam komputer?",
+    "options": ["Untuk menyimpan data secara permanen",
+    "Untuk membaca data",
+    "Untuk menyimpan data sementara saat komputer berjalan",
+    "Untuk menjalankan program"],
+    "answer": "Untuk menyimpan data sementara saat komputer berjalan"
+},
+{
+    "question": "Apa kepanjangan dari RAM dalam komponen komputer?",
+    "options": ["Random Access Memory", 
+    "Rumah Anak Mantu", 
+    "Ra Arep Mangan", 
+    "Request Access Memoli"],
+    "answer": "Random Access Memory"
+},
+{
+    "question":"Apa fungsi dari Hard Disk Drive (HDD)",
+    "options": ["Memproses data grafis",
+    "Menyediakan daya untuk komputer",
+    "Menjalankan sistem operasi",
+    "Menyimpan data secara permanen"],
+    "answer": "Menyimpan data secara permanen"
+},
+{
+    "question": "Komponen yang digunakan untuk menampilkan output visual",
+    "options": ["GPU", "CPU", "RAM", "SSD"],
+    "answer": "GPU (Graphics Processing Unit) bertugas untuk menampilkan output visual dari komputer ke monitor"
+},
+{
+    "question":"Apa perbedaan utama antara SSD dan HDD?",
+    "options": ["SSD lebih lambat dan lebih murah",
+    "HDD lebih cepat dan lebih tahan lama",
+    "HDD lebih cepat dan lebih mahal",
+    "SSD lebih cepat dan lebih tahan lama"],
+    "answer": "SSD lebih cepat dan lebih tahan lama"
+},
+{
+    "question": "Apa kepanjangan dari RAID dalam teknologi?",
+    "options": ["Random Access In Dream", 
+    "Require Asset In Door", 
+    "Redundant Array of Independent Disks", 
+    "Rukun Agama Islam Deh"],
+    "answer": "Redundant Array of Independent Disks"
+},
+{
+    "question": "Apa kepanjangan dari ROM dalam komponen komputer?",
+    "options": ["Random Only Memory", 
+    "Read Only Memory", 
+    "Rusdi Ora Mangan", 
+    "Request Oll Memori"],
+    "answer": "Read Only Memory"
+},
+{
+    "question": "Ram diukur dalam satuan?",
+    "options": ["Terabyte", "Gigachad", "Gigabyte", "Kilobyte"],
+    "answer": "Gigabyte"
+},
+{
+    "question": "Komponen utama dalam prosesor adalah",
+    "options": ["Core dan Inti", 
+    "Thread dan Instagram", 
+    "Inti dan Instagram", 
+    "Core dan Thread"],
+    "answer": "Core dan Thread"
+}
+
+
+]
+  

@@ -1,0 +1,156 @@
+/* Konfigurasi dasar */
+body {
+    background-color: #070F2B; /* Warna latar belakang gelap */
+    color: #e2e1f8; /* Warna teks terang */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+
+.btnBack {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 50px; /* Membuat teks "?" vertikal di tengah */
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    z-index: 1000;
+}
+
+.cardDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .card__content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    transform: rotateX(-90deg);
+    transform-origin: bottom;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  .card:hover .card__content {
+    transform: rotateX(0deg);
+  }
+  
+  .card__title {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .card:hover svg {
+    scale: 0;
+  }
+  
+  .card__description {
+    margin: 10px 0 0;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.4;
+  }
+  
+
+.card img{
+  aspect-ratio: 1;
+  width: 100%;
+  object-fit: contain;
+}
+
+
+/* Responsif untuk tablet */
+@media (max-width: 768px) {
+  .mainDiv {
+      flex-direction: column;
+  }
+
+  .btnStart, .btnTag {
+      width: 100%;
+      padding: 10px;
+  }
+
+  .star {
+      font-size: 30px;
+  }
+
+  .help-button {
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+      line-height: 40px;
+  }
+}
+
+/* Responsif untuk mobile */
+@media (max-width: 480px) {
+  body {
+      font-size: 14px;
+  }
+
+  .mainDiv {
+      padding: 20px;
+  }
+
+  .btnStart, .btnTag {
+      width: 100%;
+      padding: 8px;
+  }
+
+  .star {
+      font-size: 20px;
+  }
+
+  .help-button {
+      top: 5px;
+      right: 5px;
+      width: 35px;
+      height: 35px;
+      font-size: 14px;
+      line-height: 35px;
+  }
+}

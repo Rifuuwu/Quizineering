@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kuis Web - Tombol Blur</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .blur { filter: blur(8px); }
+  .hidden { display: none; }
+  .button-container { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+  .button { padding: 10px 20px; margin: 10px; }
+</style>
+</head>
+<body>
+
+<div id="content">
+  <!-- Konten lain dari halaman Anda -->
+  <h1>Selamat Datang di Kuis Web</h1>
+  <p>Ini adalah contoh konten yang akan terlihat blur saat tombol ditekan.</p>
+  <!-- Tombol untuk memicu blur dan menampilkan tombol lain -->
+  <button onclick="showButtons()">Tampilkan Tombol</button>
+</div>
+
+<div class="button-container hidden" id="button-container">
+  <!-- Tombol yang akan muncul -->
+  <button class="button" onclick="window.location.href='halaman1.html';">Halaman 1</button>
+  <button class="button" onclick="window.location.href='halaman2.html';">Halaman 2</button>
+</div>
+
+<script>
+function showButtons() {
+  document.getElementById('content').classList.add('blur');
+  document.getElementById('button-container').classList.remove('hidden');
+}
+</script>
+
+</body>
+</html>

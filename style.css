@@ -1,0 +1,181 @@
+/* Konfigurasi dasar */
+body {
+    background-color: #070F2B; 
+    color: #e2e1f8; /* Warna teks terang */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.blur { filter: blur(8px); }
+.hidden { display: none; }
+.tagDiv { position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); }
+.overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: transparent; }
+
+.star {
+    font-size: 50px;
+    color: gray;
+  }
+  .yellow {
+    color: yellow;
+  }
+
+
+.btnStart {
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffff80;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffff80;
+    transition: 0.5s ease;
+    user-select: none;
+    margin-top: 30px;
+}
+
+.btnStart:hover,:focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+
+
+.help-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    line-height: 50px; /* Membuat teks "?" vertikal di tengah */
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    z-index: 1000;
+}
+
+.btnTag {
+    width: 140px;
+    height: 50px;
+    background: linear-gradient(to top, #00154c, #12376e, #23487f);
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+  
+.btnTag span {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: top 0.5s;
+}
+  
+.tagBefore {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+  
+.tagAfter {
+    position: absolute;
+    width: 100%;
+    top: 150%;
+    left: 0;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+  
+.btnTag:hover .tagBefore {
+    top: -100%;
+}
+  
+.btnTag:hover .tagAfter {
+    top: 50%;
+}
+
+/* Responsif untuk tablet */
+@media (max-width: 768px) {
+    .mainDiv {
+        flex-direction: column;
+    }
+
+    .btnStart, .btnTag {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .star {
+        font-size: 30px;
+    }
+
+    .help-button {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        line-height: 40px;
+    }
+}
+
+/* Responsif untuk mobile */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .mainDiv {
+        padding: 20px;
+    }
+
+    .btnStart, .btnTag {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .star {
+        font-size: 20px;
+    }
+
+    .help-button {
+        top: 5px;
+        right: 5px;
+        width: 35px;
+        height: 35px;
+        font-size: 14px;
+        line-height: 35px;
+    }
+}
